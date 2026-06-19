@@ -9,7 +9,6 @@ Automatically control exhaust fan speed based on temperature.
 Improve ventilation efficiency in heat-intensive areas.
 Reduce power consumption through intelligent fan control.
 Enable remote monitoring through an IoT dashboard.
-
 🔧 Components Used
 ESP32 Development Board
 DHT22 Temperature & Humidity Sensor
@@ -25,7 +24,6 @@ PCB/Breadboard
 Jumper Wires
 Power Supply Unit
 Blynk / ThingSpeak IoT Platform
-
 ⚙️ Working Principle
 The DHT22 sensor continuously measures the ambient temperature.
 The ESP32 reads and processes the temperature data.
@@ -35,7 +33,6 @@ The MOC3021 Optocoupler isolates the control circuit and triggers the BT136 TRIA
 The TRIAC controls the AC power supplied to the exhaust fan using phase-angle control.
 Fan speed automatically increases or decreases according to temperature changes.
 Temperature and fan status can be monitored remotely through an IoT dashboard.
-
 ✨ Features
 Automatic Temperature-Based Fan Speed Control
 Real-Time Temperature Monitoring
@@ -44,7 +41,6 @@ IoT-Based Monitoring and Control
 Reduced Manual Intervention
 Suitable for Industrial and Heat-Intensive Environments
 Reliable and Cost-Effective Solution
-
 🏗️ System Architecture
 
 Input Layer
@@ -68,7 +64,6 @@ AC Exhaust Fan
 Monitoring Layer
 
 Blynk / ThingSpeak Dashboard
-
 🚀 Applications
 Manufacturing Industries
 Server Rooms
@@ -77,7 +72,6 @@ Workshops
 Laboratories
 Commercial Kitchens
 Heat-Generating Industrial Environments
-
 📊 Advantages
 Improved Workplace Comfort
 Enhanced Ventilation Management
@@ -85,7 +79,6 @@ Reduced Energy Consumption
 Automated Temperature Regulation
 Easy IoT Integration
 Scalable and Flexible Design
-
 💻 Software Used
 Arduino IDE
 ESP32 Board Package
